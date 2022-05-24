@@ -6,7 +6,7 @@
 /*   By: junykim <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/09 11:50:27 by junykim           #+#    #+#             */
-/*   Updated: 2022/05/24 21:32:05 by junykim          ###   ########.fr       */
+/*   Updated: 2022/05/24 21:34:50 by junykim          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,8 +79,6 @@ t_list				*ft_lstmap(t_list *lst, void *(*f)(void *), \
 /*------------------------
 	  get_next_line.c
 ------------------------*/
-# define BUFFER_SIZE 42
-
 typedef struct s_node
 {
 	int				fd;
